@@ -39,6 +39,7 @@ dataDir <- downloadData()
 
 ## Load Activity labels as a dataframe
 activityLabels = read.csv("UCI HAR Dataset/activity_labels.txt", sep="", header=FALSE)
+activity_labels <- read.table("./UCI HAR Dataset/activity_labels.txt")[,2]
 
 # Read features and adjust feature names to be more readable using substitutions
 features = read.csv("UCI HAR Dataset/features.txt", sep="", header=FALSE)
