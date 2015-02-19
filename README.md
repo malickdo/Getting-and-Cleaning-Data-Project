@@ -13,13 +13,14 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 The features (561 of them) are unlabeled and can be found in the x_test.txt. The activity labels are in the y_test.txt file. The test subjects are in the subject_test.txt file.  Similar description for the training set.
 
-## Script (run_analysis.R) created to transform the original data to a "tidy data set"
-#Highlights of script
+## Script (run_analysis.R) - transfors original data to a "tidy data set"
+
+###Highlights of script
 * Extract dataset
 * Merge
 
 
-I created a script called run_analysis.R which will merge the test and training sets together. Prerequisites for this script:
+merge the test and training sets together. Prerequisites for this script:
 
 the UCI HAR Dataset must be extracted and..
 the UCI HAR Dataset must be availble in a directory called "UCI HAR Dataset"
