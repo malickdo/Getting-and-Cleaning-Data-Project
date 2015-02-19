@@ -23,7 +23,7 @@ Attribute Information: For each record in the dataset it is provided:
 * `subject` - The participant ("subject") ID
 * `activity` - The label of the activity performed when the corresponding measurements were taken
 
-##The Data Columns portion of the original data kept (std & mean cols)
+##The Data Columns portion of the original data kept (std & mean)
 * `tBodyAcc-mean()-X` (column `1`)
 * `tBodyAcc-mean()-Y` (column `2`)
 * `tBodyAcc-mean()-Z` (column `3`)
